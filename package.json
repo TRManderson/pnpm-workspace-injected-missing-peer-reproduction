@@ -1,0 +1,5 @@
+{
+  "name": "workspace-peer-pnpm-repro",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.22.0"
+}

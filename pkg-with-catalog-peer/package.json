@@ -1,0 +1,7 @@
+{
+  "name": "pkg-with-catalog-peer",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@types/node": "catalog:"
+  }
+}

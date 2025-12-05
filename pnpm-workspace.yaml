@@ -1,0 +1,8 @@
+packages:
+  - dependent-pkg
+  - pkg-with-catalog-peer
+
+catalog:
+  '@types/node': ^22.0.0
+
+injectWorkspacePackages: true

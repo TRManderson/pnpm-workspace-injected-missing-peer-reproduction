@@ -1,0 +1,8 @@
+{
+  "name": "dependent-pkg",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/node": "catalog:",
+    "pkg-with-catalog-peer": "workspace:^"
+  }
+}
