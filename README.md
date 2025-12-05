@@ -10,3 +10,14 @@ an unmet peer when resolving peer dependencies as the literal version `catalog:`
 resolved catalog version the package then pulls in as a direct dependency.
 
 To reproduce, run `pnpm i --resolution-only`
+
+```
+$ pnpm i --resolution-only
+Scope: all 3 workspace projects
+Progress: resolved 3, reused 0, downloaded 0, added 0, done
+ WARN  Issues with peer dependencies found
+dependent-pkg
+└─┬ pkg-with-catalog-peer 1.0.0
+  └── ✕ unmet peer @types/node@catalog:: found 22.19.1
+Done in 137ms using pnpm v10.22.0`
+```
